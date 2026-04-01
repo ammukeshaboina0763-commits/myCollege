@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 *{
     margin:auto;
     padding:10px ;
@@ -53,60 +53,4 @@ h1{
 .container div:hover{
     transform: translateY(-5px);;
      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-=======
-*{
-    margin:auto;
-    padding:10px ;
-    box-sizing: border-box;
-    border:20px ;
-}
-body{
-    font-family:Arial, sans-serif;;
-    background-color:#f8f3ef ;
-    min-height: 100vh;
-    align-items:center ;
-}
-h1{
-    padding : 200px;
-    background-color:rgb(215, 168, 127);
-    text-shadow: 2px;
-    font-size: 10rem;
-    width:100%;
-     display: flex;
-    text-align:center;
-    justify-content: center; 
-    margin:0;
-} 
-.container{
-    display:grid;
-    grid-template-columns: repeat(4,minmax(100px,200px));
-   gap:300px 500px;
-     margin:auto;
-     justify-content: center;
-
-}
-.container div{
-    background-color: white;
-    border-radius:10px ;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow:hidden;
-     transform:translateX(3px)
-}
-.container img{
-    width:500px;
-    height:1000px;
-    display:block;
-}
-.container h2{
-    text-align: center;
-    padding:20px;
-    font-style: bold;
-    background-color: white;
-    object-fit: cover ;
-    font-size:5rem;
-}
-.container div:hover{
-    transform: translateY(-5px);;
-     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
->>>>>>> e76f179ef3e50240d75f9bad83ed39c244a512a5
-}
+    }
